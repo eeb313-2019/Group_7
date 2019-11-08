@@ -1,7 +1,7 @@
 
 # Code of Conduct:
 
-[ ] 20 minutes notice to cancel a meeting!
+[ ] 2 hours notice to cancel a meeting!
 
 [ ] Be kind 
 
