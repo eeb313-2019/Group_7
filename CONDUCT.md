@@ -3,7 +3,7 @@
 
 - [ ] 2 hours notice to cancel a meeting!
 
-- [ ] Be kind 
+- [x] Be kind 
 
 - [ ] Be respectful
 
