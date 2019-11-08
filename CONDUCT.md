@@ -13,3 +13,5 @@
 
 [ ] Will vote on decisions, flip a coin if there is a tie
 
+[ ] Roles will rotate every meeting
+
