@@ -1,5 +1,5 @@
 
-*Code of Conduct:*
+#Code of Conduct:
 
 - 20 minutes notice to cancel a meeting!
 
