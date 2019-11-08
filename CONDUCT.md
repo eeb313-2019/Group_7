@@ -1,3 +1,0 @@
-Temporary code of conduct
-:)
-
