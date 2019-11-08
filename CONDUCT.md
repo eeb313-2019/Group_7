@@ -1,15 +1,15 @@
 
 # Code of Conduct:
 
-- 20 minutes notice to cancel a meeting!
+[ ] 20 minutes notice to cancel a meeting!
 
-- Be kind 
+[ ] Be kind 
 
-- Be respectful
+[ ] Be respectful
 
-- Ask for help when you need it 
+[ ] Ask for help when you need it 
 
-- Facilitor will mediate any conflict (as a neutral third-party)
+[ ] Facilitor will mediate any conflict (as a neutral third-party)
 
-- Will vote on decisions, flip a coin if there is a tie
+[ ] Will vote on decisions, flip a coin if there is a tie
 
