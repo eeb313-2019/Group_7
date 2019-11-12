@@ -15,5 +15,5 @@
 
 [ ] Roles will rotate every meeting
 
--[ ] If a group member violates the code they will be subject to consequences as decided on by other group members reflective of the severity of the offence 
+- [ ] If a group member violates the code they will be subject to consequences as decided on by other group members reflective of the severity of the offence 
 
