@@ -10,5 +10,7 @@
 - How do the leadback and redback forms differ in their preferred habitats? 
 - Do environment factors differentially affect the abundance of the two forms of redback salamander?
 - Does the preferred environment differ between sites? 
-- Over time, how does the abundance change? 
-- When there is environmental degradation at one sight, is there an increased abundance at another site? 
+- Over time, how does the abundance change?
+- When there is environmental degradation at one sight, is there an increased abundance at another site?
+- How do the observations differ between the observers who collected the data? 
+
