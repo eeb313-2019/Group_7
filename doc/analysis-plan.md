@@ -1,10 +1,12 @@
 # Possible analyses
 - data transformation:
   - remove NAs 
+  - remove french columns
   - group by site and year, calculate annual soil pH, moisture, temperature, air temperature, daily rainfall
   - group by site and year, add all counts of salamanders to calculate a total number of salamanders observed per year 
   - group by site and year, calculate the total counts of each morph per year
 - linear mixed effects model: 
+  - we will use a linear model to test if habitat quality influences salamander abundance
   - response variable: salamander abundance
   - possible explanatory variables: avg annual soil pH, avg annual soil moisture, avg annual air temperature, avg annual rainfall (also as interactions)
 - one-way anova
