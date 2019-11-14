@@ -12,6 +12,9 @@
   - we will use an anova to test for differences in salamander abundance across sites
   - response variable: salamander abundance
   - explanatory variable: site
+  
+        Myles, J. (2005). Monitoring Forest Ecosystems of the Bruce Peninsula. Bruce Peninsula Biosphere Association 
+        http://www. bpba. ca/pdf/Biosphere% 20Forest% 20Monitoring% 20Report_Myles_200.
 
 # Possible result tables 
 - average soil pH, moisture, temperature, and air temperature at each site
@@ -29,5 +32,4 @@
   - environmental factors (will need to specify) vs. two morph categories of red-backed salamanders
   - salamander abundance vs. the different sites
 
-        Myles, J. (2005). Monitoring Forest Ecosystems of the Bruce Peninsula. Bruce Peninsula Biosphere Association 
-        http://www. bpba. ca/pdf/Biosphere% 20Forest% 20Monitoring% 20Report_Myles_200.
+       
