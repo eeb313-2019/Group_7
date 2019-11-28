@@ -8,7 +8,7 @@ Because of the importance of salamanders in understanding greater ecosystem heal
 
 # Description of the data
 
-The "salamander" dataset has information on Eastern Red-backed Salamander abundance across eight sites in the Bruce Peninsula. We will use the variables of rainfall, soil temperature, soil moisture, soil pH, and air temperature to evaluate the habitat quality across the different sites and test if the habitat influences salamander abundance. The data was collected by using artificial cover boards placed in a plot formation in each of the sites and then monitored for salamander presence over 3-8 weeks. 
+The "salamander" dataset has information on Eastern Red-backed Salamander abundance across eight sites in the Bruce Peninsula. We will use the variables of rainfall, soil temperature, soil moisture, soil pH, and air temperature to evaluate the habitat quality across the different sites and test if the habitat influences salamander abundance. The data was collected by using artificial cover boards placed in a plot formation in each of the sites and then monitored for salamander presence over 3-8 weeks. NAs removed manually prior to use in R.
 
     Cavan H, et al. 2017. Data from: Parks Canada. Open government.
     (https://open.canada.ca/data/en/dataset/3571474b-8d75-491d-816e-f84677b81a7c).
