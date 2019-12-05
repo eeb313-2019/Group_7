@@ -56,14 +56,14 @@ df1 <- as_tibble(df1)
 
 # Calculate the mean rainfall, soil, and air to ensure rows match up with standardized salamander counts
 
-test1 <- salamander %>% 
+salamander_vars <- salamander %>% 
   filter(year>=2009) %>% 
   group_by(site, year) %>% 
   summarise(mean_rainfall = mean(precipitation), mean_soil = mean(soil_temp), mean_air = mean(air_temp))
 
 # Combine the dataframes --------------------------------------------
 
-salamander_new <- cbind(df1, test1[,c(3:5)])
+salamander_new <- cbind(df1, salamander_vars[,c(3:5)])
 
 salamander_new <- salamander_new %>% 
   filter(!is.na(mean_soil)) 
