@@ -1,5 +1,5 @@
 # Introduction to the project
-Eastern red-backed salamanders are highly sensitive to their environments due to their respiratory physiology. As a result, they can be used as an indicator of environmental quality. 
+Eastern Red-backed salamanders are highly sensitive to their environments due to their respiratory physiology. As a result, they can be used as an indicator of environmental quality. 
 
 An aim of the project is to see if environmental factors (rain, soil pH etc.) have an effect on salamander abundance in the Bruce Peninsula. Another would be to quantify potential differences between the two different morphs with respect to the environmenal variables. Additionally, we will assess if  differences in habitat quality across sites affect salamander abundance.
 
