@@ -231,6 +231,7 @@ outliers_soil2 <- boxplot(outlier_test$soil_temp ~ outlier_test$year, plot = F)$
 
 (outlier_test[which(outlier_test$soil_temp %in% outliers_soil2), ])
 
+# remove the identified outliers from the data
 remove_outliers <- subset(outlier_test[-c(16, 33, 34, 35, 71, 101), ])
 
 # then can repeat same procedure as above with this new dataset 
