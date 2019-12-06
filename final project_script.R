@@ -16,6 +16,8 @@ salamander <- "https://github.com/eeb313-2019/git-out/raw/master/salamander.csv"
 download.file(salamander, "salamander.csv")
 salamander <- read.csv("salamander.csv", header = TRUE)
 
+# Data cleaning ===============================================================================================
+
 # Rename columns -----------------------------------------------
 
 colnames(salamander) = c("site", "number", "cover","year", "date", "time", "survey",
@@ -68,6 +70,29 @@ salamander_new <- cbind(df1, salamander_vars[,c(3:5)])
 salamander_new <- salamander_new %>% 
   filter(!is.na(mean_soil)) 
 
+# Now look at salamander abundance over time using a linear model ======================================================
+
+abundance <- salamander_new %>%
+  group_by(year) %>% 
+  summarise(average = sum(average))
+  
+abun_model <- lm(average ~ year, data = abundance)
+
+summary(abun_model)
+
+# Plot the model 
+
+abundance %>% 
+  ggplot(aes(x = year, y = average)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  scale_x_discrete(limits=c(2009:2017)) +
+  theme_classic() +
+  labs(y = "Relative Salamander Abundance", x = "Year")
+
+
+# Now we will test how the environmental variables affect the salamander abundance ======================================
+
 # Check the correlation between the variables --------------------------------------------
 
 salamander_new %>% 
@@ -117,7 +142,7 @@ summary(model10)
 summary(model11)
 summary(model15)
 
-# Make plots for the predictor variables over time ------------------------------------------------------------
+# Make plots for the predictor variables over time ===============================================================
 
 # Mean air temperature over time
 salamander_new %>% 
@@ -155,7 +180,7 @@ salamander_new %>%
   theme_classic()+
   labs(y = "Precipitation in the Last 24 hrs (mm)", x = "Year")
 
-# Make plots for the linear regression models ------------------------------------------------------------
+# Make plots for the linear regression models =======================================================================
 
 # Salamander abundance over mean air temperature
 salamander_new %>% 
